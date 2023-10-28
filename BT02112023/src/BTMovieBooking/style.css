@@ -1,0 +1,39 @@
+.chairRow {
+    color: orange;
+    font-weight: 600;
+}
+
+.chair {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #111;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.chair.booking {
+    background-color: red;
+    color: white;
+    border: transparent;
+}
+
+.chair.booked {
+    background-color: gray;
+    color: #fff;
+    border: transparent;
+    pointer-events: none;
+}
+
+.chair.disabled {
+    pointer-events: none;
+    color: orange;
+    font-weight: 600;
+    
+}
+
+.deleteGhe{
+    cursor: pointer;
+}
